@@ -12,6 +12,6 @@ ipykernel installation requires root authentication
 > sudo -s 
 
 # excute the shell script 
-Recommended to set arg1 and arg2 with the same name
+Replace arg1 for the name of your conda_env and arg2 for the name of your jupyter_kernel. Recommended to set arg1 and arg2 with the same name
 > source conda_env.sh arg1 arg2
 
