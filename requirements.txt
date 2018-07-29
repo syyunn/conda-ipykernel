@@ -2,6 +2,8 @@ jupyter
 numpy
 scipy
 pandas
+matplotlib
+Pillow
 
 ipykernel 
 
