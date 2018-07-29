@@ -1,3 +1,6 @@
+# usage
+this shell script makes conda_env with given name and install any dependencies you want for initial setting noted down in requriements.txt. Moreover, this installs jupyter kernel of the newly installed conda_env 
+
 # git clone_conda_env
 > git clone https://github.com/syyunn/conda_env
 
@@ -5,8 +8,10 @@
 > cd conda_env
 
 # move into root shell
-> sudo -s #ipykernel installation requires root authentication 
+> sudo -s 
+ipykernel installation requires root authentication 
 
 # excute the shell script 
-> source conda_env.sh arg1 arg2 # this will install your intial set-up with jupyter kernel: replace arg1 with your conda environment name and arg2 with jupyter kernel name. Recommended to set $1 $2 with the same name
+> source conda_env.sh arg1 arg2
+Recommended to set arg1 and arg2 with the same name
 
