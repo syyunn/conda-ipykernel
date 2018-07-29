@@ -1,5 +1,5 @@
 # usage
-this shell script makes conda_env with given name and install any dependencies you want for initial setting noted down in requriements.txt. Moreover, this installs jupyter kernel of the newly installed conda_env 
+This shell script makes conda_env with a given name and conda_install any dependencies you want for initial setting of your environment referring from the requriements.txt. Moreover, this installs jupyter kernel of the newly installed conda_env automatically. 
 
 # git clone_conda_env
 > git clone https://github.com/syyunn/conda_env
