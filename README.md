@@ -4,8 +4,8 @@ This shell script creates conda_env with a given name and install any initially 
 # git clone_conda_env
 > git clone https://github.com/syyunn/conda_env
 
-# move into cloned path
-> cd conda_env
+# copy conda_env.sh to your home path 
+> cp ~/conda_env/conda_env.sh ~/conda_env.sh && cd ~
 
 # move into root shell
 ipykernel installation requires root authentication 
