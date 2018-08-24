@@ -7,6 +7,9 @@ source activate $1
 #install inital settings
 conda install --yes --file requirements.txt
 
+#install ipykernel
+pip install ipykernel
+
 #add your new conda_env kernel to jupyter
 python -m ipykernel install --user --name $1 --display-name $2
 
