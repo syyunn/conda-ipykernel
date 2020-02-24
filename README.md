@@ -1,3 +1,7 @@
+## Goal
+1. Create conda envrionment
+2. Enroll the newly created conda environment to ipython kernel so that you can drop down and click to use the kernel.
+
 ### usage  
 The script creates `conda_env` with a given name and install any preferred dependencies denoted on `requirements.txt`. Moreover, the scripts installs `jupyter_kernel` on the newly created conda environment automatically. 
 
